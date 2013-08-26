@@ -1,0 +1,8 @@
+LABEL TAILSLIVE
+MENU LABEL ^Tails Live 0.10.2
+KERNEL er/plugins/tails/vmlinuz
+INITRD er/plugins/tails/initrd.img
+APPEND boot=live live-config netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/tails/ ramdisk_size=200000 nolock noswap live-media=removable noprompt timezone=Etc/UTC block.events_dfl_poll_msecs=1000 nopersistent
+TEXT HELP
+                 Tails Live.
+ENDTEXT

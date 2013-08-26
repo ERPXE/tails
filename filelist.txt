@@ -1,0 +1,6 @@
+.:
+filelist.txt
+initrd.img
+tails.menu
+tails.png
+vmlinuz
